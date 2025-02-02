@@ -2,7 +2,7 @@
 
 int main(){
     int income;
-    int tax =0;
+    float tax =0;
     printf("Enter you income : ");
     scanf("%d",&income);
 
@@ -18,6 +18,6 @@ int main(){
         tax = 0.05 * (500000 - 250000) + 0.2 * (income - 500000)+ 0.3*(income - 1000000);
         
     }
-    printf("the total tax you need to pay is %d",tax);
+    printf("the total tax you need to pay is %f",tax);
     return 0;
 }
